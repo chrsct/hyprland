@@ -7,7 +7,7 @@ hl.monitor({
 })
 
 -- Programs:
-local terminal = "kitty"
+local terminal = "kitty --start-as=minimized"
 local google_lens = "quicksnip"
 local fileManager = "dolphin"
 local menu = "wofi --show drun || killall -9 wofi"
