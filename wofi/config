@@ -1,0 +1,7 @@
+allow_images=true
+image_size=20
+show=drun
+width=600
+height=300
+columns=5
+orientation=vertical

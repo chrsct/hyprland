@@ -1,0 +1,129 @@
+/* -------------------- General Waybar Styling -------------------- */
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+#waybar {
+    background: transparent;
+    transition: background-color 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.modules-left {
+    border-bottom-right-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+}
+
+.modules-right {
+    border-bottom-left-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+}
+
+/* -------------------- Modules Styling -------------------- */
+
+#custom-arch {
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+#workspaces {
+    padding: 0 5px;
+    margin-left: 15px; 
+    background-color: transparent;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #bbbbbb;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+#workspaces button.urgent {
+    color: #fb4934; 
+}
+
+#workspaces button.focused {
+    color: #fabd2f;
+}
+
+#battery {
+    padding: 0 10px;
+}
+
+#clock {
+    padding: 0 10px;
+}
+
+#pulseaudio {
+    background-color: transparent;
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+#pulseaudio.muted {
+    color: #fb4934;
+}
+
+#tray {
+    padding: 0 10px;
+}
+
+#tray .host {
+    padding: 0 5px;
+}
+
+#tray menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;          
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#tray menu menuitem {
+    padding: 5px 10px;
+    color: #ffffff; 
+}
+
+#tray menu menuitem:hover {
+    background-color: #0074ef;
+    color: #ffffff;
+}
+
+/* Tooltips */
+tooltip {
+    background-color: rgba(0,0,0, 0.8);
+    border: none;
+    padding: 5px;
+}
+
+tooltip label {
+    color: #ffffff;
+}
+
+#clock tooltip, #pulseaudio tooltip {
+    background-color: rgba(0,0,0, 0.8);
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#clock tooltip label, #pulseaudio tooltip label {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 12px;
+    color: #ffffff;
+}
