@@ -1,6 +1,6 @@
 #!/bin/env bash
 echo "Installing dependencies..."
-sudo pacman -S waybar swaybg wf-recorder wl-clipboard slurp grim ttf-jetbrains-mono-nerd noto-fonts-cjk noto-fonts-emoji zip lf unzip pavucontrol --noconfirm
+sudo pacman -Sy waybar swaybg wf-recorder brightnessct wl-clipboard slurp grim ttf-jetbrains-mono-nerd noto-fonts-cjk noto-fonts-emoji zip lf unzip pavucontrol --noconfirm
 echo "Checking directories..."
 mkdir -p ~/.config
 mkdir -p /home/$USER/Pictures/Screenshots
