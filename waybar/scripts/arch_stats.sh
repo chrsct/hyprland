@@ -30,7 +30,6 @@ elif [ -f /sys/class/drm/card0/gt_act_freq_mhz ] && [ -f /sys/class/drm/card0/gt
     fi
 fi
 
-# Tooltip JSON output
 TOOLTIP="<b>System Resources</b>\n<span color='#888888'>CPU:</span> ${CPU}%\n<span color='#888888'>RAM:</span> ${RAM_USED} / ${RAM_TOTAL}\n<span color='#888888'>GPU:</span> ${GPU}"
 
 printf '{"text": "", "tooltip": "%s"}\n' "$TOOLTIP"
