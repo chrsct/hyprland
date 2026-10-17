@@ -85,7 +85,6 @@ hl.animation({
     bezier = "smooth",
 })
 
--- TODO: manual review — malformed windowrule on line 90: immediate 1
 hl.window_rule({
     match = {
         class = ".*",
@@ -112,7 +111,6 @@ hl.window_rule({
 
 hl.layer_rule({
     match = { namespace = "match:namespace waybar" },
-    -- TODO: manual review — unmapped layer rule: "blur on"
     ignore_alpha = 0,
 })
 
