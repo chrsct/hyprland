@@ -1,7 +1,7 @@
 ### Platform: <br>
 ![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
 ### Automatic installation:
-	cd hyprland && ./setup
+	./setup
 
 ### Dependencies & Resources
 
