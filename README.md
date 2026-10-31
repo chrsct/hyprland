@@ -5,7 +5,7 @@
 
 ### Dependencies & Resources
 
-    sudo pacman -S waybar swaybg wf-recorder wl-clipboard slurp grim ttf-jetbrains-mono-nerd noto-fonts-cjk noto-fonts-emoji zip unzip pavucontrol --noconfirm
+    sudo pacman -S waybar swaybg wf-recorder wl-clipboard slurp grim ttf-jetbrains-mono-nerd noto-fonts-cjk noto-fonts-emoji zip unzip pavucontrol xdg-desktop-portal-gtk xdg-desktop-portal-hyprland --noconfirm
 
 ### Resource Information
 * waybar: Top Bar
@@ -17,6 +17,9 @@
 * noto-fonts-emoji: Emoji Support
 * zip: Used to Zip & Unzip Files
 * pavucontrol: Input & Output Controller like Microphone & Speakers
+* xdg-desktop-portal-hyprland: For a working screen sharing in hyprland
+* xdg-desktop-portal-gtk: Recommended to handle fallback dialogs and file pickers alongside XDPH.
+
 
 ###  Additional Resources:<br>
 	yay -S lens-shot --noconfirm
