@@ -117,7 +117,7 @@ hl.layer_rule({
 hl.device({
     name = "epic-mouse-v1",
     sensitivity = -0.5,
-    disable_while_typing = false
+    disable_while_typing = false -- Palmcheck disabled, set it to true if you're annoyed on accidentally moving touchpad.
 })
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
