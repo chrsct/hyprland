@@ -1,0 +1,6 @@
+if grep -q "1280x720" ~/.config/hypr/hyprland.lua; then
+    sed -i 's/1280x720/1920x1080/g' ~/.config/hypr/hyprland.lua
+    echo "Switched to 1280x720"
+else
+    echo "Resolution is already at 1080p"
+fi
