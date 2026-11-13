@@ -13,6 +13,7 @@ cp -r dunst ~/.config
 cp -r hypr ~/.config
 cp -r waybar ~/.config
 cp -r kitty ~/.config
+sudo cp -r bin/* /bin
 echo "Installing cursor"
 cp -r cursor/* ~/.local/share/icons
 echo "Refreshing fonts"
